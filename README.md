@@ -1,8 +1,11 @@
 # roBERTsaikwan-model
 Model for RoBERTSaiKwan News Summarizer (Extractive).
+
 ## Fine-tuning
+This model use wangchanBERTaQA as a BERT and then fine-tune with the data from thaisum. Since we use model qa as a base we need to create new label for our model. The algorithm called oracle-b find a range of words maximizes the rouge score. It helps generate the label to be trained in the model. The code for fine-tuning the model is [here](https://github.com/Sav-eng/roBERTsaikwan-model/blob/main/fine_tuning_roBERTsaikwan.ipynb). You can simply fine-tune the new data by following the guideline in the notebook. Note that you should read through each sections as it need to set the data(preprocess)
 
 ## Inference
+The part uses model which is already fine-tined to inference.
 
 ## Metrics
 Our code are in [Metrics.ipyn](https://github.com/Sav-eng/roBERTsaikwan-model/blob/main/Metrics.ipynb).
