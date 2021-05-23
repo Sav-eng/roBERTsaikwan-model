@@ -7,8 +7,8 @@ This model use wangchanBERTaQA as a BERT and then fine-tune with the data from t
 ## Inference
 The part uses model which is already fine-tined to inference. Code for inference is [here](https://github.com/Sav-eng/roBERTsaikwan-model/blob/main/inference_roBERTsaikwan.ipynb). Note that it is the same code in the backend part.
 
-## Metrics
-Our code are in [Metrics.ipynb](https://github.com/Sav-eng/roBERTsaikwan-model/blob/main/Metrics.ipynb).
+## Baseline
+Our code are in [Baseline.ipynb](https://github.com/Sav-eng/roBERTsaikwan-model/blob/main/baseline.ipynb).
 We use 3 model to compare with our model: Lead-3 (simply three sentences at the beginning, oracle-a(selected words to maximize rouge score), and oracle-b which is our gold label)
 Note that in oracle-b section, we already preprocessed the data in [Model.ipynb](https://github.com/Sav-eng/roBERTsaikwan-model/blob/main/fine_tuning_roBERTsaikwan.ipynb) since it is our label in our model.
 
