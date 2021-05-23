@@ -9,7 +9,7 @@ The part uses model which is already fine-tined to inference. Code for inference
 
 ## Baseline
 Our code are in [Baseline.ipynb](https://github.com/Sav-eng/roBERTsaikwan-model/blob/main/baseline.ipynb).
-We use 3 model to compare with our model: Lead-3 (simply three sentences at the beginning, oracle-a(selected words to maximize rouge score), and oracle-b which is our gold label)
+We use 3 model to compare with our model: Lead-3 (simply three sentences at the beginning, oracle-a(selected words to maximize rouge score), and oracle-b which is our gold label).
 Note that in oracle-b section, we already preprocessed the data in [Model.ipynb](https://github.com/Sav-eng/roBERTsaikwan-model/blob/main/fine_tuning_roBERTsaikwan.ipynb) since it is our label in our model.
 
 ## Resources
